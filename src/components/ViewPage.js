@@ -59,7 +59,7 @@ const ViewPage = () => {
             <input
               type="checkbox"
               name="default"
-              checked
+              defaultChecked={true}
               className="default-checkbox"
             />
             <label htmlFor="default">Checked checkbox</label>
@@ -76,7 +76,7 @@ const ViewPage = () => {
             <input
               type="checkbox"
               name="default"
-              checked
+              defaultChecked={true}
               className="default-checkbox"
             />
             <label htmlFor="default">Checked checkbox</label>
@@ -93,7 +93,7 @@ const ViewPage = () => {
             <input
               type="checkbox"
               name="default"
-              checked
+              defaultChecked={true}
               className="default-checkbox"
             />
             <label htmlFor="default">Checked checkbox</label>

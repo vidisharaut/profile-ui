@@ -32,22 +32,22 @@ const Sidebar = () => {
         </div>
         <div className="links">
           <Link className="link" to="/">
-            <IoIosPeople className={!open ? "large" : ""} />{" "}
-            <p className={!open && "hide"}>Clients</p>
+            <IoIosPeople className={open ? "" : "large"} />{" "}
+            <p className={open ? "" : "hide"}>Clients</p>
           </Link>
           <Link className="link" to="/">
-            <BiSearch className={!open ? "large" : ""} />{" "}
-            <p className={!open && "hide"}>Search</p>
+            <BiSearch className={open ? "" : "large"} />{" "}
+            <p className={open ? "" : "hide"}>Search</p>
           </Link>
           <Link className="link" to="/">
-            <GiCalendar className={!open ? "large" : ""} />{" "}
-            <p className={!open && "hide"}>Status</p>
+            <GiCalendar className={open ? "" : "large"} />{" "}
+            <p className={open ? "" : "hide"}>Status</p>
           </Link>
         </div>
         <div className="logout">
           <Link className="link" to="/">
-            <BiLogOut className={!open ? "large" : ""} />{" "}
-            <p className={!open && "hide"}>Logout</p>
+            <BiLogOut className={open ? "" : "large"} />{" "}
+            <p className={open ? "" : "hide"}>Logout</p>
           </Link>
         </div>
       </div>
